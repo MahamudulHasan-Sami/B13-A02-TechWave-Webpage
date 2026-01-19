@@ -299,6 +299,7 @@ nav {
 
     .why-choose-card-box4 {
         grid-column: auto;
+        word-wrap: break-word;
     }
 
 }
