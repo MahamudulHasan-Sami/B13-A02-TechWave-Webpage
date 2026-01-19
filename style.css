@@ -135,6 +135,7 @@ nav {
     margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    align-items: center;
     text-align: center;
     margin-bottom: 120px;
 
@@ -275,6 +276,44 @@ nav {
     color: #00FF88;
 }
 
+/* host section style */
+
+.host-section {
+    max-width: 1200px;
+    margin: 120px auto 0;
+}
+
+.host-section-title {
+    text-align: center;
+}
+
+.host-section-bottom-container {
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    display: flex;
+    gap: 24px;
+    padding: 40px;
+}
+
+.host-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.host-description-container-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.host-icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 10px;
+}
 
 
 
@@ -384,6 +423,20 @@ nav {
         flex-direction: column;
         gap: 20px;
         align-items: center;
+    }
+
+    /* host section style */
+
+    .host-section-bottom-container {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 40px;
+        max-width: 400px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
     }
 
 }
