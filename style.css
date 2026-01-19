@@ -19,11 +19,17 @@ body {
 .title-primary {
     font-size: 3rem;
     font-weight: 700;
+    margin-bottom: 40px;
 }
 
 .text-primary {
     font-size: 1rem;
     line-height: 24px;
+}
+
+.text-primary-2 {
+    font-size: 1rem;
+    line-height: 20px;
 }
 
 .btn-primary {
@@ -90,9 +96,53 @@ nav {
     display: none;
 }
 
+/* banner section style */
 
+/* .banner-top {
+    position: relative;
+}
 
+.hero-bg {
+    max-width: 100wh;
+}
 
+.hero-circle {
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: 625px;
+} */
+
+/* about section style */
+
+.about-section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-section-top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.about-section-top-title {
+    margin-bottom: 16px;
+}
+
+.about-section-bottom {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+
+}
+
+.about-section-card-title {
+    color: #00FF88;
+    margin-bottom: 16px;
+}
 
 
 /* media query */
@@ -100,8 +150,55 @@ nav {
 @media screen and (max-width: 576px) {
     
     /* navbar style */
+
     .nav-mid-contents,
     .nav-btn {
         display: none;
     }
+
+    .hamburger-menu {
+        display: inline;
+    }
+
+    hr {
+        margin: 0 auto;
+    }
+
+    /* banner section style */
+/* 
+    .banner-section {
+        margin-top: 40px;
+    }
+    .banner-top {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .hero-bg {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .hero-circle {
+        max-width: 180px;
+        top: -10px;
+        left: 125px;
+    } */
+
+    /* about section style */
+
+    .about-section {
+        padding: 20px;
+    }
+    .about-section-top {
+        margin-bottom: 40px;
+    }
+    .about-section-top-title {
+        font-size: 2rem;
+    }
+    .about-section-bottom {
+        margin-top: 40px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
 }
