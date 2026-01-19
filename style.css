@@ -31,6 +31,12 @@ body {
     border-radius: 10000px;
     background-image: linear-gradient(rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
     padding: 12px 20px;
+    cursor: pointer;
+    transition: transform 2.0s ease;
+}
+
+.btn-primary:active {
+    transform: scale(1.5);
 }
 
 
@@ -78,6 +84,10 @@ nav {
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 600;
+}
+
+.hamburger-menu {
+    display: none;
 }
 
 
