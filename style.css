@@ -427,6 +427,10 @@ nav {
 
     /* host section style */
 
+    .host-section {
+        margin-top: 60px;
+    }
+
     .host-section-bottom-container {
         display: flex;
         flex-direction: column;
