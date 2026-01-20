@@ -500,7 +500,7 @@ footer {
         left: 125px;
     } */
      .banner-section {
-        width: 430px;
+        width: 400px;
         height: 460px;
         margin-bottom: 60px;
     }
@@ -508,20 +508,21 @@ footer {
     .hero-circle {
         max-width: 200px;
         top: 70px;
-        left: 118px;
+        left: 100px;
     }
 
     .headphone {
         max-width: 80px;
         top: 110px;
-        left: 180px;
+        left: 161px;
     }
 
     .banner-badge {
         max-width: 50px;
         font-size: 0.6rem;
         top: 80px;
-        left: 260px;
+        left: 250px;
+        margin: 0 auto;
     }
 
     .banner-bottom {
