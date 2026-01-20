@@ -113,6 +113,96 @@ nav {
     left: 625px;
 } */
 
+.banner-section {
+    background-image: url(./assets/hero-bg.png);
+    max-width: 1600px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner-top {
+    
+}
+
+.hero-circle {
+    position: absolute;
+    top: 70px;
+    left: 625px;
+}
+
+.headphone {
+    position: absolute;
+    top: 150px;
+    left: 740px;
+}
+
+.banner-badge {
+    border: 1px solid #1A0B2E;
+    border-radius: 10000px;
+    padding: 12px 20px;
+    background-color: #00FF88;
+    cursor: pointer;
+    transition: transform 2.0s ease;
+    /* max-width: 40px;
+    font-size: 0.6rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left: 880px;
+}
+
+.banner-badge:active {
+    transform: scale(1.5);
+}
+
+.banner-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 450px;
+    left: 530px;
+}
+
+.banner-bottom-title {
+    font-size: 3.75rem;
+    font-weight: 800;
+}
+
+.banner-btn-container {
+    display: flex;
+    gap: 10px;
+}
+
+.banner-btn {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.banner-btn-2 {
+    border: 1px solid #00FF88;
+    border-radius: 10000px;
+    padding: 12px 20px;
+    background: transparent;
+    color: #00FF88;
+    cursor: pointer;
+    transition: transform 2.0s ease;
+}
+
+.banner-btn-2:active {
+    transform: scale(1.5);
+}
+
 /* about section style */
 
 .about-section-container {
@@ -409,6 +499,42 @@ footer {
         top: -10px;
         left: 125px;
     } */
+     .banner-section {
+        width: 430px;
+        height: 460px;
+        margin-bottom: 60px;
+    }
+
+    .hero-circle {
+        max-width: 200px;
+        top: 70px;
+        left: 118px;
+    }
+
+    .headphone {
+        max-width: 80px;
+        top: 110px;
+        left: 180px;
+    }
+
+    .banner-badge {
+        max-width: 50px;
+        font-size: 0.6rem;
+        top: 80px;
+        left: 260px;
+    }
+
+    .banner-bottom {
+        top: 200px;
+        left: 20px;
+        max-width: 400px;
+        margin: 100px auto 0;
+    }
+
+    .banner-bottom-title {
+        font-size: 2.5rem;
+    }
+
 
     /* about section style */
 
@@ -435,6 +561,7 @@ footer {
     }
     .why-choose-section-title {
         font-size: 2rem;
+        padding-top: 30px;
     }
     .why-choose-section-cards {
         grid-template-columns: repeat(1, 1fr);
