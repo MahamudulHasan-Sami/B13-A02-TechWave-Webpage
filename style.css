@@ -123,10 +123,6 @@ nav {
     position: relative;
 }
 
-.banner-top {
-    
-}
-
 .hero-circle {
     position: absolute;
     top: 70px;
@@ -146,8 +142,6 @@ nav {
     background-color: #00FF88;
     cursor: pointer;
     transition: transform 2.0s ease;
-    /* max-width: 40px;
-    font-size: 0.6rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -481,26 +475,9 @@ footer {
     }
 
     /* banner section style */
-/* 
-    .banner-section {
-        margin-top: 40px;
-    }
-    .banner-top {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-    }
-    .hero-bg {
-        max-width: 400px;
-        margin: 0 auto;
-    }
-    .hero-circle {
-        max-width: 180px;
-        top: -10px;
-        left: 125px;
-    } */
+
      .banner-section {
-        width: 400px;
+        width: 380px;
         height: 460px;
         margin-bottom: 60px;
     }
@@ -508,20 +485,20 @@ footer {
     .hero-circle {
         max-width: 200px;
         top: 70px;
-        left: 100px;
+        left: 90px;
     }
 
     .headphone {
         max-width: 80px;
         top: 110px;
-        left: 161px;
+        left: 150px;
     }
 
     .banner-badge {
         max-width: 50px;
         font-size: 0.6rem;
         top: 80px;
-        left: 250px;
+        left: 240px;
         margin: 0 auto;
     }
 
